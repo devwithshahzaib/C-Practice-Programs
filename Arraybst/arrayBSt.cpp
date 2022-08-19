@@ -1,7 +1,6 @@
 //Description: Binary Search Tree with array implementation, it has inorder, postorder and pre order traversals.
 //Note: it is not advisable to use array in binary search tree because it consumes a lot of memory in the long run
 // instead use linked list this is just a reference to understand more about BST. Good luck and Happy coding
-// Frank Mendez
 
 
 
@@ -126,14 +125,14 @@ void BinarySearchTree::preOrder(int currentIndex) {
 }
 
 int main () {
-    BinarySearchTree frank(5);
-    frank.insertElement(4);
-    frank.insertElement(6);
-    frank.insertElement(9);
-    frank.insertElement(3);
-    frank.insertElement(2);
-    frank.searchElement(1);
-    frank.inOrder(0);
+    BinarySearchTree bst(5);
+    bst.insertElement(4);
+    bst.insertElement(6);
+    bst.insertElement(9);
+    bst.insertElement(3);
+    bst.insertElement(2);
+    bst.searchElement(1);
+    bst.inOrder(0);
 
     return 0;
 }
